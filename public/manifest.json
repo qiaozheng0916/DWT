@@ -1,0 +1,16 @@
+{
+    "name": "SafeJourney",
+    "short_name": "SafeJourney",
+    "start_url": ".",
+    "display": "standalone",
+    "background_color": "#fff",
+    "description": "Keeping You Safe on Every Journey.",
+    "icons": [
+      {
+        "src": "images/icon.png",
+        "sizes": "1024x1024",
+        "type": "image/png"
+      }
+    ]
+}
+  
