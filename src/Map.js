@@ -6,9 +6,9 @@ import db from './indexedDB';
 const Map = () => {
     const [locations, setLocations] = useState([]);
     // London
-    // const [mapCenter, setMapCenter] = useState([51.505, -0.09]); 
+    const [mapCenter, setMapCenter] = useState([51.505, -0.09]); 
     // Shanghai(for test)
-    const [mapCenter, setMapCenter] = useState([30, 121]); 
+    // const [mapCenter, setMapCenter] = useState([30, 121]); 
 
     useEffect(() => {
         const fetchLocations = async () => {

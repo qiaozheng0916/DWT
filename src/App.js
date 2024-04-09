@@ -102,11 +102,6 @@ const MainPage = ({ userData, onUpdate }) => {
     }
 };
 
-// Example usage within a component
-handleSendSMS(userData.userName, userData.emergencyContactPhone, "Latitude: 34.0522, Longitude: -118.2437");
-
-
-
   return (
     <div className="main-container">
       <h1>SafeJourney</h1>

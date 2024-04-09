@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import Webcam from 'react-webcam';
-import db from './indexedDB'; // Ensure this import points to your Dexie database setup
+import db from './indexedDB';
 
 const WebcamCapture = ({ onSave }) => {
     const webcamRef = React.useRef(null);
